@@ -1,0 +1,13 @@
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.exe.config
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.exe
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.pdb
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\obj\Debug\GameTestOne.exe
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\obj\Debug\GameTestOne.pdb
+C:\Users\ja122756\Documents\Visual Studio 2015\Projects\GameTestOne\GameTestOne\obj\Debug\SinglePlayerDarts.csprojResolveAssemblyReference.cache
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\bin\Debug\GameTestOne.exe.config
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\bin\Debug\GameTestOne.exe
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\bin\Debug\GameTestOne.pdb
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj.AssemblyReference.cache
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\GameTestOne.exe
+C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\GameTestOne.pdb

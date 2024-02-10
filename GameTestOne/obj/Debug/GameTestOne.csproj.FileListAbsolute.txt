@@ -1,0 +1,5 @@
+c:\users\ja122756\documents\visual studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.exe.config
+c:\users\ja122756\documents\visual studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.exe
+c:\users\ja122756\documents\visual studio 2015\Projects\GameTestOne\GameTestOne\bin\Debug\GameTestOne.pdb
+c:\users\ja122756\documents\visual studio 2015\Projects\GameTestOne\GameTestOne\obj\Debug\GameTestOne.exe
+c:\users\ja122756\documents\visual studio 2015\Projects\GameTestOne\GameTestOne\obj\Debug\GameTestOne.pdb
