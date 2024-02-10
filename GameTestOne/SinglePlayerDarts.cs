@@ -19,7 +19,7 @@ namespace SinglePlayerDarts
     ///             - update app.config for statistics (player1) and (GamesPlayed) - if not built will be in [your source]\bin\Debug\GameTestOne.exe.Config
     ///             - updated to change console font and bold *** ALLOWS UNSAFE *** if you do not want this
     ///                     comment out from internal unsafe struct CONSOLE_FONT_INFO_EX down and in main comment out line with SetConsoleFont(
-    ///             - updated to force double out
+    ///           
     /// </summary>
 
     public class Game
