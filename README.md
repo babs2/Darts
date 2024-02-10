@@ -1,2 +1,2 @@
 # Darts
-Darts Console app c#
+Darts game
