@@ -54,17 +54,38 @@ namespace GameTestOne
                     case 170:
                         Console.WriteLine("60 , 60 , Bull");
                         break;
+                    case 169:
+                        Console.WriteLine("bogey");
+                        break;
+                    case 168:
+                        Console.WriteLine("bogey");
+                        break;
                     case 167:
                         Console.WriteLine("60 , 57 , Bull");
                         break;
+                    case 166:
+                        Console.WriteLine("bogey");
+                        break;
+                    case 165:
+                        Console.WriteLine("bogey");
+                        break;
                     case 164:
                         Console.WriteLine("60 , 54 , Bull");
+                        break;
+                    case 163:
+                        Console.WriteLine("bogey");
+                        break;
+                    case 162:
+                        Console.WriteLine("bogey");
                         break;
                     case 161:
                         Console.WriteLine("60 , 51 , Bull");
                         break;
                     case 160:
                         Console.WriteLine("60 , 60 , D20");
+                        break;
+                    case 159:
+                        Console.WriteLine("bogey");
                         break;
                     case 158:
                         Console.WriteLine("60 , 60 , D19");
@@ -152,72 +173,93 @@ namespace GameTestOne
                         break;
                     case 130:
                         Console.WriteLine("60 , 60 , D5");
+                        Console.WriteLine("20 , 60 , Bull");
                         break;
                     case 129:
-                        Console.WriteLine("57 , 48 , D12");
+                        Console.WriteLine("57 , 60 , D6");
+                        Console.WriteLine("19 , 60 , Bull");
                         break;
                     case 128:
-                        Console.WriteLine("54 , 42 , D16");
+                        Console.WriteLine("54 , 54 , D10");
+                        Console.WriteLine("18 , 60 , Bull");
                         break;
                     case 127:
                         Console.WriteLine("60 , 51 , D8");
+                        Console.WriteLine("20 , 57 , Bull");
                         break;
                     case 126:
                         Console.WriteLine("57 , 57 , D6");
+                        Console.WriteLine("19 , 57 , Bull");
                         break;
                     case 125:
-                        Console.WriteLine("25 , 60 , D20");
+                        Console.WriteLine("54 , 51 , D10");
+                        Console.WriteLine("18 , 57 , Bull");
                         break;
                     case 124:
                         Console.WriteLine("60 , 48 , D8");
+                        Console.WriteLine("20 , 54 , Bull");
                         break;
                     case 123:
                         Console.WriteLine("57 , 48 , D9");
+                        Console.WriteLine("19 , 54 , Bull");
                         break;
                     case 122:
                         Console.WriteLine("54 , 60 , D4");
+                        Console.WriteLine("18 , 54 , Bull");
                         break;
                     case 121:
                         Console.WriteLine("51 , 30 , D20");
+                        Console.WriteLine("17 , 54 , Bull");
                         break;
                     case 120:
                         Console.WriteLine("60 , 20 , D20");
                         break;
                     case 119:
-                        Console.WriteLine("57 , 30 , D16");
+                        Console.WriteLine("57 , 42 , D10");
+                        Console.WriteLine("19 , 60 , D20");
                         break;
                     case 118:
                         Console.WriteLine("60 , 18 , D20");
+                        Console.WriteLine("20 , 60 , D19");
                         break;
                     case 117:
                         Console.WriteLine("60 , 17 , D20");
+                        Console.WriteLine("20 , 57 , D20");
                         break;
                     case 116:
-                        Console.WriteLine("60 , 16 , D20");
+                        Console.WriteLine("57 , 19 , D20");
                         break;
                     case 115:
-                        Console.WriteLine("60 , 15 , D20");
+                        Console.WriteLine("57 , 18 , D20");
+                        Console.WriteLine("19 , 60 , D18");
                         break;
                     case 114:
-                        Console.WriteLine("60 , 14 , D20");
+                        Console.WriteLine("60 , 18 , D18");
+                        Console.WriteLine("20 , 54 , D20");
                         break;
                     case 113:
                         Console.WriteLine("60 , 13 , D20");
+                        Console.WriteLine("20 , 57 , D18");
                         break;
                     case 112:
                         Console.WriteLine("60 , 12 , D20");
+                        Console.WriteLine("20 , 60 , D16");
                         break;
                     case 111:
-                        Console.WriteLine("60 , 19 , D16");
+                        Console.WriteLine("54 , 14 , D20");
+                        Console.WriteLine("19 , 60 , D16");
                         break;
                     case 110:
                         Console.WriteLine("60 , 18 , D16");
+                        Console.WriteLine("20 , 54 , D18");
                         break;
                     case 109:
-                        Console.WriteLine("57 , 20 , D16");
+                        Console.WriteLine("60 , 17 , D16");
+                        Console.WriteLine("20 , 57 , D16");
                         break;
                     case 108:
-                        Console.WriteLine("60 , 16 , D16");
+                        Console.WriteLine("54 , 19 , D16");
+                        Console.WriteLine("19 , 54 , D16");
                         break;
                     case 107:
                         Console.WriteLine("57 , 18 , D16");
