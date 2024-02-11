@@ -35,6 +35,7 @@ namespace GameTestOne
                     prompt = Console.ReadLine().ToUpper();
                 }
             }
+            Console.Clear();
             while (!validNum)
             {
                 Console.WriteLine("Enter Lowest out you want to test on: (note lower than 22 is bogus)");
