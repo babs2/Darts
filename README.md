@@ -1,7 +1,7 @@
 # Darts
 Darts game
 
-This allows a 501 game to be played by 1 player.  2 Player coming in the future.  This project was orig from Jimmy something or other.
+This allows a 501 game to be played by 1 player.  2 Player coming in the future.  This project was orig from jimmyc-original/Darts.git but I can't submit a pull request.  Props to Jimmyc.
 I've attempted to create a pull request to his branch on GH, but he isn't active and I don't have permission to commit to his remote.
 
 
