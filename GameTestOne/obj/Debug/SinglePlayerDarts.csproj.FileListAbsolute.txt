@@ -11,3 +11,10 @@ C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj
 C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj.CoreCompileInputs.cache
 C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\GameTestOne.exe
 C:\Users\Brian\Source\Repos\Darts\GameTestOne\obj\Debug\GameTestOne.pdb
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\bin\Debug\GameTestOne.exe.config
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\bin\Debug\GameTestOne.exe
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\bin\Debug\GameTestOne.pdb
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj.AssemblyReference.cache
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\obj\Debug\SinglePlayerDarts.csproj.CoreCompileInputs.cache
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\obj\Debug\GameTestOne.exe
+C:\Users\Brian\source\repos\new\Darts\GameTestOne\obj\Debug\GameTestOne.pdb
