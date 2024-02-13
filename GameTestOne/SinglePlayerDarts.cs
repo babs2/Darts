@@ -437,10 +437,14 @@ namespace SinglePlayerDarts
                     case 125:
                         Console.WriteLine("T18, T17, D10");
                         Console.WriteLine("18 , T19 , Bull");
+                        Console.WriteLine("25 , Bull , Bull");
+                        Console.WriteLine("25 , T20 , D20");
                         break;
                     case 124:
                         Console.WriteLine("T20 , T16 , D8");
                         Console.WriteLine("20 , T18, Bull");
+                        Console.WriteLine("T20 , T14 , D11");
+                        Console.WriteLine("T20 , 14 , Bull");
                         break;
                     case 123:
                         Console.WriteLine("T19 , T16 , D9");
@@ -995,10 +999,14 @@ namespace SinglePlayerDarts
                     case 125:
                         Console.WriteLine("T18, T17, D10");
                         Console.WriteLine("18 , T19 , Bull");
+                        Console.WriteLine("25 , Bull , Bull");
+                        Console.WriteLine("25 , T20 , D20");
                         break;
                     case 124:
                         Console.WriteLine("T20 , T16 , D8");
                         Console.WriteLine("20 , T18, Bull");
+                        Console.WriteLine("T20 , T14 , D11");
+                        Console.WriteLine("T20 , 14 , Bull");
                         break;
                     case 123:
                         Console.WriteLine("T19 , T16 , D9");

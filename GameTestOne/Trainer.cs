@@ -209,8 +209,10 @@ namespace GameTestOne
                         Console.WriteLine("19 , T19 , Bull");
                         break;
                     case 125:
-                        Console.WriteLine("T18 , T17 , D10");
+                        Console.WriteLine("T18, T17, D10");
                         Console.WriteLine("18 , T19 , Bull");
+                        Console.WriteLine("25 , Bull , Bull");
+                        Console.WriteLine("25 , T20 , D20");
                         break;
                     case 124:
                         Console.WriteLine("T20 , T16 , D8");
