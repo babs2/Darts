@@ -37,6 +37,7 @@ namespace GameTestOne
                         outs(outSearch);
                         Console.WriteLine("want to search for another out? (Y/N)");
                         prompt = Console.ReadLine().ToUpper();
+                        Console.Clear();
                     }
                 }
                 Console.Clear();
