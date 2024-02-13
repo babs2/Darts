@@ -14,50 +14,55 @@ namespace GameTestOne
         private static readonly Random rnd = new Random();
         public static void start()
         {
-            //SetConsoleFont("Consolas", 15, 30);
-            Console.WriteLine("Do you want to select an out? (Y/N)");
-            string prompt = Console.ReadLine().ToUpper();
-            
-            int minScore = 0;
-            int maxScore = 0;
-            int outSearch = 0;
-            bool validNum = false;
-            bool validNum2 = false;
-            while (prompt == "Y")
+            string prompt = "";
+            while (prompt != "Q")
             {
-                Console.WriteLine("what out are you looking for?");
+
+                //SetConsoleFont("Consolas", 15, 30);
+                Console.WriteLine("Do you want to select an out? (Y/N) or Q to Quit");
                 prompt = Console.ReadLine().ToUpper();
-                validNum = int.TryParse(prompt, out outSearch);
-                if (validNum == true)
+
+                int minScore = 0;
+                int maxScore = 0;
+                int outSearch = 0;
+                bool validNum = false;
+                bool validNum2 = false;
+                while (prompt == "Y")
                 {
-                    outs(outSearch);
-                    Console.WriteLine("want to search for another out? (Y/N)");
+                    Console.WriteLine("what out are you looking for?");
                     prompt = Console.ReadLine().ToUpper();
+                    validNum = int.TryParse(prompt, out outSearch);
+                    if (validNum == true)
+                    {
+                        outs(outSearch);
+                        Console.WriteLine("want to search for another out? (Y/N)");
+                        prompt = Console.ReadLine().ToUpper();
+                    }
                 }
-            }
-            Console.Clear();
-            while (!validNum)
-            {
-                Console.WriteLine("Enter Lowest out you want to test on: (note lower than 22 is bogus)");
-                string input = Console.ReadLine();
-                validNum = int.TryParse(input, out minScore);
-            }
-            while (!validNum2)
-            {
-                Console.WriteLine("Enter Highest out you want to test on:");
-                string input2 = Console.ReadLine();
-                validNum2 = int.TryParse(input2, out maxScore);
-            }
-
-
-            while (true)
-            {
-                int counter = getRand(minScore, maxScore);
-                Console.WriteLine(counter + " is counter");
-                Console.ReadLine();
-                outs(counter);
-                Console.ReadLine();
                 Console.Clear();
+
+                while (!validNum && prompt != "Q")
+                {
+                    Console.WriteLine("Enter Lowest out you want to test on:");
+                    
+                    string input = Console.ReadLine();
+                    validNum = int.TryParse(input, out minScore);
+
+                    while (!validNum2 && prompt != "Q")
+                    {
+                        Console.WriteLine("Enter Highest out you want to test on:");
+                        string input2 = Console.ReadLine();
+                        validNum2 = int.TryParse(input2, out maxScore);
+                    }
+                    while (prompt != "Q")
+                    {
+                        int counter = getRand(minScore, maxScore);
+                        Console.WriteLine(counter + " is out  || Enter 'Q' to Quit");
+                        outs(counter);
+                        prompt = Console.ReadLine().ToUpper();
+                        Console.Clear();
+                    }
+                }
             }
         }
 

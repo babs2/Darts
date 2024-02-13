@@ -25,7 +25,8 @@ namespace SinglePlayerDarts
 
     public class Game
     {
-        private static int outsAvailable = 0;
+        public static string gameMode = "";
+        public static int gameStarting = 501;
         private static int counter = 501;
         private static int dartsThrown = 0;
         private static decimal playerAverage = 0;
@@ -34,35 +35,41 @@ namespace SinglePlayerDarts
 
         static void Main(string[] args)
         {
-            //OutsTrainer.Trainer();
-            Trainer.start();
-            Console.ReadLine();
-
-
-
-
-
-            SetConsoleFont("Consolas", 15, 30);
-            splashScreen();
-            int totalScore = 501;
-            while (counter > 0)
+            Console.WriteLine("Enter 'T' for trainer, or 'P' for single player 01");
+            gameMode = Console.ReadLine().ToUpper();
+            while ((gameMode != "P" || gameMode != "T") && counter > 0) 
             {
+                if (gameMode == "T")
+                {
+                    Trainer.start();  
+                    counter = 0;
+                }
+                else
+                {
+                    SetConsoleFont("Consolas", 15, 30);
+                    splashScreen();
+                    // can we make the line below adjustable?
+                    int totalScore = gameStarting;
+                    while (counter > 0)
+                    {
 
-                // TODO: double to finish needs to happen. 
-                // TODO: make sure any unwanted numbers aren't added to the totals DONE
-                // TODO: tests add tests
-                // TODO:
+                        // TODO: double to finish needs to happen. 
+                        // TODO: make sure any unwanted numbers aren't added to the totals DONE
+                        // TODO: tests add tests
+                        // TODO:
 
-                // process starts in main
-                // runs textQuery - prompts for 3 darts - checks
+                        // process starts in main
+                        // runs textQuery - prompts for 3 darts - checks
 
 
-                round++;
-                textQuery(ref totalScore); //ref keyword indicates a value that is passed by reference
-                scoreKeeper(totalScore);
-                roundScore.Add(totalScore);
-                splashScreen();
-                outs();
+                        round++;
+                        textQuery(ref totalScore); //ref keyword indicates a value that is passed by reference
+                        scoreKeeper(totalScore);
+                        roundScore.Add(totalScore);
+                        splashScreen();
+                        outs();
+                    }
+                }
             }
 
         }
@@ -90,7 +97,7 @@ namespace SinglePlayerDarts
         {
             int Goal = counter;
             int Tally = Goal - totalScore;
-            Console.WriteLine(Goal + " " + Tally + " " + counter);
+            //Console.WriteLine(Goal + " " + Tally + " " + counter);
             Console.ReadKey();
             if (Tally >= 1)
 
@@ -112,7 +119,8 @@ namespace SinglePlayerDarts
                 Console.WriteLine("CONGRATULATIONS! - YOU HAVE FINALLY REACHED " + Tally);
                 Console.WriteLine("");
                 counter = Tally;
-                playerAverage = (501 / dartsThrown) * 3;
+                // make adjustable
+                playerAverage = (gameStarting / dartsThrown) * 3;
 
                 Console.WriteLine("8b        d8                                           88              ");
                 Console.WriteLine(" Y8,    , 8P                                           @@              ");
@@ -186,8 +194,8 @@ namespace SinglePlayerDarts
         {
             // roundScore is the individual dart score
             int roundScore = getScore(); //this referes totalAttemptScore to getScore & is why you dont need to call it in Main
-            Console.WriteLine(  roundScore + "roundScore");
-            Console.WriteLine(counter + " counter score");
+            //Console.WriteLine(roundScore + "roundScore");
+            //Console.WriteLine(counter + " counter score");
             throwinstanceScore = throwinstanceScore + roundScore;
             if (roundScore <= 20)
             {
@@ -265,22 +273,25 @@ namespace SinglePlayerDarts
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("**************************************************************************************************************");
-            Console.WriteLine("**                           Welcome to the single player Darts game 501!                                   **");
+            Console.WriteLine("**                           Welcome to the single player Darts game " + gameStarting + "!                                   **");
             Console.WriteLine("**                           New graphics coming soon!                                                      **");
             Console.WriteLine("**************************************************************************************************************");
             Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("         Player 1 score  ");
             Console.WriteLine("**************************************************************************************************************");
-            Console.WriteLine("                     501      ");
+            Console.WriteLine("                     " + gameStarting + "      ");
             Console.WriteLine("");
             int i = 1;
-            int remaining = 501;
+            // make adjustable
+            int remaining = gameStarting;
             while (i <= round)
             {
                 remaining = remaining - Convert.ToInt32(roundScore[i - 1]);
-                playerAverage = ((501 - remaining) / (i));
-                Console.WriteLine("Round " + i + ":   " + Convert.ToInt32(roundScore[i - 1]) + "       " + remaining + "   Average: " + ((501 - remaining) / (i)).ToString());
+                // make adjustable
+                playerAverage = ((gameStarting - remaining) / (i));
+                // make adjustable
+                Console.WriteLine("Round " + i + ":   " + Convert.ToInt32(roundScore[i - 1]) + "       " + remaining + "   Average: " + ((gameStarting - remaining) / (i)).ToString());
                 Console.WriteLine("");
                 i++;
             }
@@ -290,7 +301,7 @@ namespace SinglePlayerDarts
         {
             if (counter < 171)
             {
-                outsAvailable = 1;
+                //outsAvailable = 1;
                 Console.ForegroundColor = ConsoleColor.Red;
                 switch (counter)
                 {
@@ -852,7 +863,7 @@ namespace SinglePlayerDarts
         {
             if (left < 171)
             {
-                outsAvailable = 1;
+                //outsAvailable = 1;
                 Console.ForegroundColor = ConsoleColor.Red;
                 switch (left)
                 {
